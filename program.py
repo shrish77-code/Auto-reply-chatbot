@@ -10,7 +10,7 @@ client = OpenAI(
 )
 def is_last_message_from_sender(chat_text, name="ENTER THE NAME OF THE PERSON HERE"):
     """
-    Check if the last message in the chat text is from Cutuuuu.
+    Check if the last message in the chat text is from User.
     
     text: str -> full copied WhatsApp chat text
     name: str -> the name to check
@@ -88,4 +88,5 @@ while True:
 
         # Step 7: Press Enter
         pyautogui.press("enter")
+
         time.sleep(0.5)
